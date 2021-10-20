@@ -23,22 +23,42 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-
+var warning = 'Harry Potter must not return to Hogwarts!'
+console.log(warning)
 
 // YOU DO:
-// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
+// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
 
+var firstName = 'George'
+console.log(firstName)
+
+var isHungry = 'For the blood of his enemies!'
+console.log(isHungry)
+
+var numberOfPets = 1
+console.log(numberOfPets)
+
 // IN WORDS:
-// How did you decide to use the data type you did for each of the three variables above? 
+// How did you decide to use the data type you did for each of the three variables above?
   // Explain.
+  // I thought of the response that made the most sense for the name of the variable.
 
 
 // YOU DO:
-// Re-assign the values to the three variables from the previous challenge to different 
+// Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
 // log all three variables to the console.
+
+firstName = 'Definately not George'
+console.log(firstName)
+
+isHungry = 'Will be sitting down for a lovely home cooked meal.'
+console.log(isHungry)
+
+numberOfPets = 'Oh boy, Kittens!'
+console.log(numberOfPets)
 
 
 // YOU DO:
@@ -46,10 +66,14 @@ console.log(enrolledStudents);
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
 
+var totalSnacks = healthySnacks + junkFoodSnacks
+console.log(totalSnacks)
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?
+
+//Sure did.  Everything worked well.  I did have one error due to a typo...
