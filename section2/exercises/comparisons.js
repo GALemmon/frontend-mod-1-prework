@@ -23,9 +23,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log('Is numberTeachers less than numberStudents?', numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+console.log('Is numberTeachers equal to stringTeachers?', numberTeachers == stringTeachers);
 // this should log: true
 
 /*
@@ -35,6 +37,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+console.log('Is numberTeachers strictly equal to stringTeachers?', numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -48,18 +51,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log('Is numberTeachers not equal to numberStudents?', numberTeachers !== numberStudents)
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log('Is numberStudents greater than or equal to 20?', numberStudents >= 20)
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log('Is numberStudents greater than or equal to 21?', numberStudents >= 21)
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log('Is numberStudents less than or equal to 20?', numberStudents <= 20)
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log('Is numberStudents less than or equal to 21?', numberStudents <= 21)
 // this should log: true
 
 
@@ -73,21 +81,32 @@ you develop good habits that follow best practice, from now on, use the strict c
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-//YOU DO: Explain.
+// YOU DO: Explain.
+// This will display the answer to 'is 4 less than 9'.
+// It should log: true.
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books);
 // YOU DO: Explain.
+// This defines the variable 'books' as equal to 3.  Then it displays the answer to 'is 4 greater
+// than the variable books (3)'.
+// It should log: false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// This defines the variable 'friends' as equal to 6 and the variable 'siblings' as equal to 2.
+// Then is displays the answer to 'is friends (6) greater than siblings (2)'.
+// It should log: true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// This defines the variable 'attendees' as equal to 9 and the variable 'meals' as equal to 8.
+// Then it displays the answer to the question 'is attendees not equal to meals'.
+// It should log: true.
 
 
 //-------------------
@@ -111,17 +130,24 @@ var age = 1;
 // YOU DO:
 // Determine if the dog loves to play and loves treats
 
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
 
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
 
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
 
+console.log(lovesToPlay && age);
+
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+
+// It spit out '1'.  I think its becaus the data type is different.
 
 //-------------------
 // FINAL CHECK
@@ -129,3 +155,5 @@ var age = 1;
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+
+//I sure did.

@@ -39,15 +39,33 @@ Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
 
+// This section of code states that if door number 1 is chosen, then the bearClothing will be a hat.
+// If a door other than 1 is chosen, then the bearClothing will be a scarf.
+
 2. What variable has a new value assigned to it after the first if statement executes?
+
+// The variable bearClothing does not recieve a value until a value is chosen in the first statement.
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
 
+//Because it is not equal to 1, the item of clothing would be a scarf.
+
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+
+// This section of code uses conditional sttatements to tell the rest of the story.  The user can choose from
+// several options.  Selecting 1, 2, or 3 provides a specific path with text.  Entering any other
+// choice selects the final option.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
+// The console would print, "You run as fast as you can into the next room. It's full of snakes!"
+
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
 
+// "You tell the bear the hat is too small and it starts to cry!"
+
 7. What is your favorite ending?
+
+// I like the idea of being friends with the bear.
+
 */
