@@ -18,12 +18,12 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47,
   prepare: function() {
-    console.log('Hello!  Your ' + lunchOrder.beverage + ' and ' + lunchOrder.dish + ' will be ready shortly.')
+    console.log('Hello!  Your ' + lunchOrder.beverage + ' and ' + lunchOrder.dish + ' will be ready shortly.');
   },
   complete: function() {
-    console.log('Hello!  Your ' + lunchOrder.beverage + ' and ' + lunchOrder.dish + ' are on their way to table number ' + lunchOrder.tableNumber + '.')
+    console.log('Hello!  Your ' + lunchOrder.beverage + ' and ' + lunchOrder.dish + ' are on their way to table number ' + lunchOrder.tableNumber + '.');
   }
-}
+};
 
 lunchOrder.prepare();
 lunchOrder.complete();

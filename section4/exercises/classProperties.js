@@ -19,37 +19,37 @@ Make sure to run the file with node in your command line.
 
 class Dog {
 
-}
+};
 
 var bullDog = new Dog();
 var germanShepard = new Dog();
 
-console.log(bullDog);
-console.log(germanShepard);
+console.log('bullDog: ', bullDog);
+console.log('gemanShepard: ', germanShepard);
 
 // Prompt 2: Snack
 
 class Snack {
 
-}
+};
 
 var gummyBears = new Snack();
 var popCorn = new Snack();
 
-console.log(gummyBears);
-console.log(popCorn);
+console.log('gummyBears: ', gummyBears);
+console.log('popCorn: ', popCorn);
 
 // Prompt 3: Shirt
 
 class Shirt {
 
-}
+};
 
 var tshirt = new Shirt();
 var turtleNeck = new Shirt();
 
-console.log(tshirt);
-console.log(turtleNeck);
+console.log('tshirt: ', tshirt);
+console.log('turtleNeck: ', turtleNeck);
 
 
 //-------------------
@@ -71,7 +71,7 @@ class Dog1 {
     this.size = 'medium';
     this.smart = 'not so much';
   }
-}
+};
 
 var bullDog1 = new Dog1;
 
@@ -80,8 +80,8 @@ var germanShepard1 = new Dog1;
   germanShepard1.size = 'large';
   germanShepard1.smart = 'very';
 
-console.log(bullDog1);
-console.log(germanShepard1);
+console.log('bulldog1: ', bullDog1);
+console.log('germanShepard1: ', germanShepard1);
 
 // Prompt 2: Snack
 
@@ -91,7 +91,7 @@ class Snack1 {
     this.salty = 'no';
     this.sweet = 'yes';
   }
-}
+};
 
 var gummyBears1 = new Snack1;
 
@@ -105,9 +105,9 @@ var carmelCorn1 = new Snack1;
   carmelCorn1.salty = 'yes';
   carmelCorn1.sweet = 'yes';
 
-console.log(gummyBears1);
-console.log(popCorn1);
-console.log(carmelCorn1);
+console.log('gummyBears1: ', gummyBears1);
+console.log('popCorn1: ', popCorn1);
+console.log('carmelCorn1: ', carmelCorn1);
 
 // Prompt 3: Shirt
 
@@ -117,7 +117,7 @@ class Shirt1 {
     this.collar = 'no';
     this.buttons = 'no';
   }
-}
+};
 
 var tshirt1 = new Shirt1;
 
@@ -126,14 +126,14 @@ var turtleNeck1 = new Shirt1;
   turtleNeck1.collar = 'yes';
   turtleNeck1.buttons = 'no';
 
-var henley1 = new Shirt1('yes', 'no', 'yes');
+var henley1 = new Shirt1;
   henley1.longSleves = 'yes';
   henley1.collar = 'no';
   henley1.buttons = 'yes';
 
-console.log(tshirt1);
-console.log(turtleNeck1);
-console.log(henley1);
+console.log('tshirt1: ', tshirt1);
+console.log('turtleNeck1: ', turtleNeck1);
+console.log('henley1: ', henley1);
 
 //-------------------
 // Part 3: Dynamic Properties
@@ -155,13 +155,13 @@ class Dog2 {
     this.size = size;
     this.smart = smart;
   }
-}
+};
 
 var bullDog2 = new Dog2('brown', 'medium', 'not so much');
 var germanShepard2 = new Dog2('brown', 'large', 'very');
 
-console.log(bullDog2);
-console.log(germanShepard2);
+console.log('bullDog2: ', bullDog2);
+console.log('germanShepard2: ', germanShepard2);
 
 
 // Prompt 2: Snack
@@ -172,15 +172,15 @@ class Snack2 {
     this.salty = salty;
     this.sweet = sweet;
   }
-}
+};
 
 var gummyBears2 = new Snack2('chewy', 'no', 'yes');
 var popCorn2 = new Snack2('crunchy', 'yes', 'no');
 var carmelCorn2 = new Snack2('crunchy', 'yes', 'yes');
 
-console.log(gummyBears2);
-console.log(popCorn2);
-console.log(carmelCorn2);
+console.log('gummyBears2: ', gummyBears2);
+console.log('popCorn2: ', popCorn2);
+console.log('carmelCorn2: ', carmelCorn2);
 
 // Prompt 3: Shirt
 
@@ -190,12 +190,12 @@ class Shirt2 {
     this.collar = collar;
     this.buttons = buttons;
   }
-}
+};
 
 var tshirt2 = new Shirt2('no', 'no', 'no');
 var turtleNeck2 = new Shirt2('yes', 'yes', 'no');
 var henley2 = new Shirt2('yes', 'no', 'yes');
 
-console.log(tshirt2);
-console.log(turtleNeck2);
-console.log(henley2);
+console.log('tshirt2: ', tshirt2);
+console.log('turtleNeck2: ', turtleNeck2);
+console.log('henley2: ', henley2);

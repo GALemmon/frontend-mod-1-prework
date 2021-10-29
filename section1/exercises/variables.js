@@ -23,26 +23,27 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-var warning = 'Harry Potter must not return to Hogwarts!'
-console.log(warning)
+
+var warning = 'Harry Potter must not return to Hogwarts!';
+console.log('warning: ', warning);
 
 // YOU DO:
 // Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
 // log all three variables to the console.
 
-var firstName = 'George'
-console.log(firstName)
+var firstName = 'George';
+var isHungry = 'For the blood of his enemies!';
+var numberOfPets = 1;
 
-var isHungry = 'For the blood of his enemies!'
-console.log(isHungry)
-
-var numberOfPets = 1
-console.log(numberOfPets)
+console.log('firstName: ', firstName);
+console.log('isHungry: ', isHungry);
+console.log('numberOfPets: ', numberOfPets);
 
 // IN WORDS:
 // How did you decide to use the data type you did for each of the three variables above?
   // Explain.
+
   // I thought of the response that made the most sense for the name of the variable.
 
 
@@ -51,23 +52,21 @@ console.log(numberOfPets)
   // values (but same data type).
 // log all three variables to the console.
 
-firstName = 'Definately not George'
-console.log(firstName)
+firstName = 'Definately not George';
+isHungry = 'Will be sitting down for a lovely home cooked meal.';
+numberOfPets = 5;
 
-isHungry = 'Will be sitting down for a lovely home cooked meal.'
-console.log(isHungry)
-
-numberOfPets = 'Oh boy, Kittens!'
-console.log(numberOfPets)
-
+console.log('firstName + reassign: ', firstName);
+console.log('isHungry + reassign: ', isHungry);
+console.log('numberOfPets + reassign: ', numberOfPets);
 
 // YOU DO:
 // Using the variables below, log the total number of snacks to the console:
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
 
-var totalSnacks = healthySnacks + junkFoodSnacks
-console.log(totalSnacks)
+var totalSnacks = healthySnacks + junkFoodSnacks;
+console.log('totalSnacks: ', totalSnacks);
 
 //-------------------
 // FINAL CHECK

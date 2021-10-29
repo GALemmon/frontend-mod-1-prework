@@ -17,10 +17,10 @@ class Tweet {
     this.comments = comments;
   }
   like() {
-    this.numberOfLikes++
+    this.numberOfLikes++;
   }
   addComment(newComment) {
-    this.comments.push(newComment)
+    this.comments.push(newComment);
   }
 };
 

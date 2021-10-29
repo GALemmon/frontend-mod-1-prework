@@ -45,12 +45,12 @@ var dogAge = 3;
 // Write your conditional here
 
 if (dogAge <= 2) {
-  console.log('Hooray! Puppy!');
+  console.log('puppy: Hooray! Puppy!');
 } else if (dogAge >= 10) {
-  console.log("Good ol' dog");
+  console.log("elderly: Good ol' dog");
 } else{
-  console.log('Good dog!');
-}
+  console.log('adult: Good dog!');
+};
 
 /*
 YOU DO:
@@ -72,14 +72,12 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 var numQuarters = 0;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
 
 if (numQuarters < 2) {
-  console.log("I don't have enough money for a gumball");
+  console.log("I don't have enough money for a gumball.");
 } else {
-  console.log("I have enough money for a gumball");
-}
+  console.log("I have enough money for a gumball.");
+};
 
 /*
 YOU DO:
@@ -104,7 +102,7 @@ if (cupsOfFlour >= 2 && hasSauce == true) {
 }
 else {
   console.log('I cannot make pizza.');
-}
+};
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.

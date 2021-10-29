@@ -50,15 +50,15 @@ var chickenBurrito = new Burrito('chicken', 'flour tortilla', baseToppings);
 var carnitasBurrito = new Burrito('carnitas', 'flour tortilla', baseToppings);
 var steakBurrito = new Burrito('steak', 'flour tortilla', baseToppings);
 
-console.log(chickenBurrito);
-console.log(steakBurrito);
-console.log(carnitasBurrito);
+console.log('chickenBurrito: ', chickenBurrito);
+console.log('steakBurrito: ', steakBurrito);
+console.log('carnitasBurrito: ', carnitasBurrito);
 
 chickenBurrito.changeProtein();
-console.log(chickenBurrito);
+console.log('chickenBurrito + changeProtien: ', chickenBurrito);
 
 steakBurrito.addTopping('guac');
-console.log(steakBurrito);
+console.log('steakBurrito + guac: ', steakBurrito);
 
 carnitasBurrito.addTopping('queso');
-console.log(carnitasBurrito);
+console.log('carnitasBurrito + queso: ', carnitasBurrito);

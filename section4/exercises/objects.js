@@ -40,22 +40,22 @@ var zooAnimals = {
 // Using the zoo that you created above, log the value of the first item in
 // the Object
 
-console.log(zooAnimals.lions);
+console.log('zooAnimals.lions: :', zooAnimals.lions);
 
 // Add an animal to the zoo Object, and log the updated Object.
 
 zooAnimals.lizards = 10;
-console.log(zooAnimals.lizards);
+console.log('zooAnimals + lizards: ', zooAnimals);
 
 // Change the value for at least one of your animal keys, and log the updated Object.
 
 zooAnimals.bears = 3;
-console.log(zooAnimals.bears);
+console.log('zooAnimals + bear update: ', zooAnimals);
 
 // Add another animal to the zoo Object, and log the updated Object.
 
 zooAnimals.sloths = 2;
-console.log(zooAnimals.sloths);
+console.log('zooAnimals + sloths: ', zooAnimals);
 
 //-------------------
 // Part 2: Email
@@ -79,7 +79,7 @@ var email = {
   body: "Lots and lots and lots and lots of words..."
 };
 
-console.log(emails)
+console.log('email:', email)
 
 //-------------------
 // Part 3: Many Emails - OPTIONAL EXTENSION
@@ -155,4 +155,4 @@ var emails = [
   }
 ]
 
-console.log(emails);
+console.log('emails: ', emails);
